@@ -1,0 +1,182 @@
+@import "http://webfonts.ru/import/airborne.css";
+div{
+	box-sizing: padding-box;
+}
+.banner{
+	height: 578px;
+	background: url(img/background-banner.png) no-repeat;
+	background-size: cover;
+	position: relative;
+}
+
+.device{
+	width: 497px;
+	height: 331px;
+	background: url(img/samsung-galaxy-s5.png) no-repeat;
+	background-size: cover;
+	margin-left: 10%;
+	margin-top: 50px; 
+}
+
+.line{
+	position: absolute;
+	width: 100%;
+	height:13px;
+	bottom: -1px;
+	background: url(img/line-bg.png) repeat-x;
+}
+
+.div-menu{
+	height: 90px;
+	background: #fff;
+}
+
+/* БЛОК C КРУГАМИ */
+
+.description{
+	height: 400px;
+}
+
+.colomn3{
+	width: 260px;
+	display: inline-block;
+	float: left;
+	text-align: center;
+	padding: 0 30px 0 30px;
+}
+
+.colomn3 h1{
+	color: #5094f2;
+	font-size: 18px;
+	font-family: 'Roboto', sans-serif;
+	margin-bottom: 20px;
+}
+
+.colomn3 p{
+	color: #909090;
+	font-size: 18px;
+}
+
+.circle{
+	width: 180px;
+	height: 180px;
+	border-radius: 50%;
+	margin: 0 auto;
+	margin-top: 40px;
+	margin-bottom: 20px;
+}
+
+.blue-circle{
+	background-color: #5094f2;
+}
+
+.blue-circle img, .red-circle img, .yellow-circle img{
+	padding-top: 40px;
+	padding-left: 3px;
+}
+
+.red-circle{
+	background: #d94748;
+}
+
+.yellow-circle{
+	background: #ebbb11;
+}
+
+
+/* НИЖНИЙ БЛОК С КОРЗИНОЙ */
+.marketing{
+	height: 400px;
+}
+
+.marketing-left{
+	display: inline-block;
+	float: left;
+	width: 50%;
+	text-align: center;
+}
+
+.marketing-left h1{
+	color: #6f7173;
+	font-size: 40px;
+	font-family: 'Roboto', sans-serif;
+	margin-bottom: 60px;
+}
+.marketing-right{
+	display: inline-block;
+	float: right;
+	width: 47%;
+	text-align: center;
+	padding-left: 3%;
+}
+
+.marketing-right h1{
+	color: #6f7173;
+	font-size: 22px;
+	font-family: 'Roboto', sans-serif;
+	margin-bottom: 30px;
+}
+
+.marketing-right p{
+	font-size: 18px;
+	line-height: 2em;
+	text-align: left;
+	color: #979797;
+}
+
+.footer{
+	height: 90px;
+	border-top: 1px solid #e5e5e5;
+}
+
+.footer .content{
+	text-align: center;
+	font-size: 18px;
+	color: #909090;
+	padding-top: 30px;
+}
+
+.content{
+	width: 960px;
+	margin: 0 auto;
+}
+
+.logo{
+	display: inline-block;
+	float: left;
+	padding-top: 10px;
+}
+
+	.logo h1{
+		display: inline-block;
+		font-size: 28px;
+		line-height: 100px;
+		color: #666;
+		font-family: 'Roboto', sans-serif;
+	}
+
+.menu{
+	display: inline-block;
+	float: right;
+}
+
+.menu ul{
+	text-align: center;
+}
+
+.menu ul li{
+	display: inline-block;
+	list-style: none;
+	margin-left: 20px;
+	padding: 10px 10px;
+	line-height: 65px;
+	font-size: 20px;
+	text-transform: capitalize;
+	font-family: 'Roboto', sans-serif;
+}
+
+.menu ul li:hover{
+	border-bottom: 5px solid #5094f2; 
+	cursor: pointer;
+}
+
